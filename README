@@ -1,1 +1,32 @@
-Homogeneous Sparse Learning
+# HomogeneousSparseLearning
+
+## Homogeneous Sparse Learning&mdash; Official Matlab Implementation
+
+Toolbox for dynamical sampling.
+
+
+### Update
+
+- 2021.12.30 ---  A basic framework .
+
+### Requirements
+
+* macOS Big Sur is supported. 
+* Matlab R2020b installation. 
+* [Symbolic Math Toolbox](https://www.mathworks.com/products/symbolic.html) and [Graph Signal Processing Toolbox](https://epfl-lts2.github.io/gspbox-html/) are required. 
+
+### Features
+
+
+### Quick Start
+
+Before you use this repository, make sure you correctly download [Graph Signal Processing Toolbox](https://epfl-lts2.github.io/gspbox-html/) and run `gsp_start` script. 
+
+#### How to run experiments on different prepared dataset
+
+1. Modify the parameters in the **OD_def.m** file. The changable parameters are listed below.
+   
+2. Run **Run_SparseLearning** file. The program should return the Data_Mode and Method you use, and the recovered spectrum of the matrix.
+
+### Acknowledgement
+
