@@ -2,9 +2,6 @@
 
 ## Homogeneous Sparse Learning&mdash; Official Matlab Implementation
 
-Toolbox for dynamical sampling.
-
-
 ### Update
 
 - 2021.12.30 ---  A basic framework .
@@ -20,7 +17,6 @@ Toolbox for dynamical sampling.
 
 ### Quick Start
 
-Before you use this repository, make sure you correctly download [Graph Signal Processing Toolbox](https://epfl-lts2.github.io/gspbox-html/) and run `gsp_start` script. 
 
 #### How to run experiments on different prepared dataset
 
