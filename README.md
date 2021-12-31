@@ -21,12 +21,7 @@
 
 1. Run the **Startup_AddPaths.m** to add all the folders.
 
-2. Modify the parameters in the **OD_def.m** file. The changable parameters are listed below.
-   
-   * sysINfo.d:            dimension 
-   * sysINfo.N:            number of particle 
-   * obsInfo.M:            number of initial condition 
-   * obsInfo.time_vec:     training interval
+2. Modify the parameters in the **OD_def.m** file.Systems are generally considered by their interaction law and the parameters {d,N,M,L}, or dimension, number of particles, number of initial conditions, and number of time steps. These system parameters are defined in OD_def.m as sysInfo.d, sysInfo.N, sysInfo.M, and length(obsInfo.time_vec)
    
    
 3. Run **Run_SparseLearning_singleset.m** to see the interaction law approximation and trajectory visualiztion with parameters from **OD_def.m**.
