@@ -21,7 +21,7 @@
 
 1. Modify the parameters in the **OD_def.m** file. The changable parameters are listed below.
    
-2. Run **Run_SparseLearning** file. The program should return the Data_Mode and Method you use, and the recovered spectrum of the matrix.
+2. Run **Run_SparseLearning** file.
 
 ### Acknowledgement
 
