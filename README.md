@@ -13,7 +13,7 @@
 
 ### Quick Start
 
-#### How to run experiments on different prepared dataset
+#### How to run experiments 
 
 1. Run the **Startup_AddPaths.m** to add all the folders.
 
