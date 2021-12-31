@@ -17,7 +17,7 @@
 
 1. Run the **Startup_AddPaths.m** to add all the folders.
 
-2. Modify the parameters in the **OD_def.m** file.
+2. Modify the parameters in the **OD_def.m** file in **Examples** folder.
    Systems are generally considered by their interaction law and the parameters {d,N,M,L,\sigma}, 
       * sysInfo.d:            dimension
       * sysInfo.N:            number of particles
@@ -28,5 +28,12 @@
    
 3. Run **Run_SparseLearning_singleset.m** to see the interaction law approximation and trajectory visualization with parameters from **OD_def.m**.
 
-4. Run **Run-SparseLearning_mprog.m** to see how this approximation improves as M increases.
+#### How to repoduce graphics and tables
+###### specifically firgure 4, table 3, and table 4. 
+
+1. Run **Run_SparseLearning_mprog.m** to see how this approximation improves as M increases.
+      * automatically calculates the results in table 3.   
+      * save data with different M listed in paper, then run **probplot.m** in **ploting** folder.
+
+2. Run **Run_SparseLearning_trajctoryerrors** to see the trajactory prediction errors in the table 4. 
 
