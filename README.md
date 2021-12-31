@@ -33,7 +33,7 @@
 
 1. Run **Run_SparseLearning_mprog.m** to see how this approximation improves as M increases.
       * automatically calculates the results in table 3.   
-      * save data with different M listed in paper, then run **probplot.m** in **ploting** folder.
+      * save data with different M listed in paper, then run **probplot.m** in **Plotting** folder.
 
 2. Run **Run_SparseLearning_trajctoryerrors** to see the trajactory prediction errors in the table 4. 
 
