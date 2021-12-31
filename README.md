@@ -19,6 +19,8 @@
 
 #### How to run experiments on different prepared dataset
 
+1. Run the **Startup_AddPaths.m** to add all the folders.
+
 1. Modify the parameters in the **OD_def.m** file. The changable parameters are listed below.
    
 2. Run **Run_SparseLearning_singleset.m** to see the interaction law approximation and trajectory visualiztion at a certain parameters.
