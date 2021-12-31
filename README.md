@@ -18,9 +18,10 @@
 1. Run the **Startup_AddPaths.m** to add all the folders.
 
 2. Modify the parameters in the **OD_def.m** file.
-   Systems are generally considered by their interaction law and the parameters {d,N,M,L,\sigma}, defined in **OD_def.m**
+   Systems are generally considered by their interaction law and the parameters {d,N,M,L,\sigma}, 
       * sysInfo.d:            dimension
       * sysInfo.N:            number of particles
+      * sysInfo.phi:          interaction law
       * obsInfo.M:            number of initial conditions
       * obsInfo.time_vec:     training interval (L=length(obsInfo.time_vec):number of time steps)
       * obsInfo.obs_noise:    noise level (takes parameters of the form "xey", where x, y are real numbers, x is nonnegative.  *E.g. 0.001=1e-3 and 0.0005=5e-4.*)
