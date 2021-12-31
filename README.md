@@ -26,7 +26,7 @@
    
 3. Run **Run_SparseLearning_singleset.m** to see the interaction law approximation and trajectory visualiztion with parameters from **OD_def.m**.
 
-4. Run **Run-SparseLearning_mprog.m** to see how this approximation increases as M improved.
+4. Run **Run-SparseLearning_mprog.m** to see how this approximation improves as M increases.
 
 ### Acknowledgement
 
