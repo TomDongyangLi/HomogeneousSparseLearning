@@ -23,9 +23,7 @@
       * sysInfo.N:            number of particles
       * obsInfo.M:            number of initial conditions
       * obsInfo.time_vec:     training interval (L=length(obsInfo.time_vec):number of time steps)
-      * obsInfo.obs_noise:    noise level
-
- Note: noise level takes parameters of the form "xey", where x, y are real numbers, x is nonnegative.  *E.g. 0.001=1e-3 and 0.0005=5e-4.*
+      * obsInfo.obs_noise:    noise level (takes parameters of the form "xey", where x, y are real numbers, x is nonnegative.  *E.g. 0.001=1e-3 and 0.0005=5e-4.*)
    
 3. Run **Run_SparseLearning_singleset.m** to see the interaction law approximation and trajectory visualization with parameters from **OD_def.m**.
 
