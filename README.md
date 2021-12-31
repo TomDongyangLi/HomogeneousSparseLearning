@@ -23,6 +23,12 @@
 
 2. Modify the parameters in the **OD_def.m** file. The changable parameters are listed below.
    
+   * sysINfo.d:            dimension 
+   * sysINfo.N:            number of particle 
+   * obsInfo.M:            number of initial condition 
+   * obsInfo.time_vec:     training interval
+   
+   
 3. Run **Run_SparseLearning_singleset.m** to see the interaction law approximation and trajectory visualiztion with parameters from **OD_def.m**.
 
 4. Run **Run-SparseLearning_mprog.m** to see how this approximation increases as M improved.
