@@ -11,18 +11,21 @@
 * macOS Big Sur is supported. 
 * Matlab R2020b installation. 
 
-### Features
-
-
 ### Quick Start
-
 
 #### How to run experiments on different prepared dataset
 
 1. Run the **Startup_AddPaths.m** to add all the folders.
 
 2. Modify the parameters in the **OD_def.m** file.
-   Systems are generally considered by their interaction law and the parameters {d,N,M,L,\sigma}, or dimension, number of particles, number of initial conditions, number of time steps, and noise level. These system parameters are defined in OD_def.m as sysInfo.d, sysInfo.N, sysInfo.M, length(obsInfo.time_vec), and obsInfo.obs_noise. takes parameters of the form "xey", where x, y are real numbers, x is nonnegative.  *E.g. 0.001=1e-3 and 0.0005=5e-4.*
+   Systems are generally considered by their interaction law and the parameters {d,N,M,L,\sigma}, defined in **OD_def.m**
+      * sysInfo.d:            dimension
+      * sysInfo.N:            number of particles
+      * obsInfo.M:            number of initial conditions
+      * obsInfo.time_vec:     training interval (L=length(obsInfo.time_vec):number of time steps)
+      * obsInfo.obs_noise:    noise level
+
+ Note: noise level takes parameters of the form "xey", where x, y are real numbers, x is nonnegative.  *E.g. 0.001=1e-3 and 0.0005=5e-4.*
    
 3. Run **Run_SparseLearning_singleset.m** to see the interaction law approximation and trajectory visualization with parameters from **OD_def.m**.
 
