@@ -22,7 +22,7 @@
 1. Run the **Startup_AddPaths.m** to add all the folders.
 
 2. Modify the parameters in the **OD_def.m** file.
-   Systems are generally considered by their interaction law and the parameters {d,N,M,L}, or dimension, number of particles, number of initial conditions, and number of time steps. These system parameters are defined in OD_def.m as sysInfo.d, sysInfo.N, sysInfo.M, and length(obsInfo.time_vec), obsInfo.obs_noise takes parameters of the form "$xey$", where $x, y$ are real numbers, $x \ge 0$
+   Systems are generally considered by their interaction law and the parameters {d,N,M,L,$\sigma}, or dimension, number of particles, number of initial conditions, number of time steps, and noise level. These system parameters are defined in OD_def.m as sysInfo.d, sysInfo.N, sysInfo.M, length(obsInfo.time_vec), and obsInfo.obs_noise. takes parameters of the form "$xey$", where $x, y$ are real numbers, $x \ge 0$
    
 3. Run **Run_SparseLearning_singleset.m** to see the interaction law approximation and trajectory visualiztion with parameters from **OD_def.m**.
 
