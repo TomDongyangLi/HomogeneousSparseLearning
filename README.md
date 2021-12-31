@@ -29,5 +29,3 @@
 
 4. Run **Run-SparseLearning_mprog.m** to see how this approximation improves as M increases.
 
-### Acknowledgement
-
