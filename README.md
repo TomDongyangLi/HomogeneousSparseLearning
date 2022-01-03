@@ -34,7 +34,7 @@
 1. Run **Run_SparseLearning_mprog.m** to see how this approximation improves as M increases.
       * save data with different M listed in paper, then run **probplot.m** in **Plotting** folder to see figure 4.
 
-2. Run **Run_SparseLearning_trajctoryerrors** to see 
+2. Run **Run_SparseLearning_trajctoryerrors.m** to see 
       * the relative coefficient approximation error in table 3.
       * the trajactory prediction errors in the table 4. 
 
