@@ -9,7 +9,7 @@
 ### Requirements
 
 * macOS Big Sur is supported. 
-* Matlab R2020b installation. 
+* Matlab R2021b installation. 
 
 ### Quick Start
 
@@ -32,8 +32,9 @@
 ###### (specifically firgure 4, table 3, and table 4)
 
 1. Run **Run_SparseLearning_mprog.m** to see how this approximation improves as M increases.
-      * automatically calculates the results in table 3.   
-      * save data with different M listed in paper, then run **probplot.m** in **Plotting** folder.
+      * save data with different M listed in paper, then run **probplot.m** in **Plotting** folder to see figure 4.
 
-2. Run **Run_SparseLearning_trajctoryerrors** to see the trajactory prediction errors in the table 4. 
+2. Run **Run_SparseLearning_trajctoryerrors** to see 
+      * the relative coefficient approximation error in table 3.
+      * the trajactory prediction errors in the table 4. 
 
